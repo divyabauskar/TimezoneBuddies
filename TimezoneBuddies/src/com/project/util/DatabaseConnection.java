@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/timezone_buddies?useSSL=false";
     private static final String USER = "root";
-    private static final String PASSWORD = "yourpassword";
+    private static final String PASSWORD = "123456@apsit";
 
     public static Connection getConnection() {
         Connection connection = null;
@@ -19,4 +19,5 @@ public class DatabaseConnection {
         }
         return connection;
     }
+
 }
